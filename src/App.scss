@@ -58,11 +58,11 @@ a {
 }
 
 .first-page {
-  width: 1920px;
+  width: 100%;
   height: 931px;
   justify-content: center;
   text-align: center;
-
+  display: inline-block;
   background-image: url(https://wallpaperaccess.com/full/434879.jpg);
 }
 .first-page-aboutme {
