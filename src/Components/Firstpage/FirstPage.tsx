@@ -8,8 +8,8 @@ const FirstPage = () => {
     <h1>HEY ! I,m Maciej</h1>  
       <h3>In love with creating web applications <br />
           as a Frontend Developer<br/>
-          using React / SASS / Javascript <br />
-          and other interesting frameworks and libraries</h3>
+          using React / SASS / Javascript and<br />
+          other interesting frameworks and libraries</h3>
     </div>
     <div className='first-page-photo'>
       <img src={profile} className="profile-photo" />
