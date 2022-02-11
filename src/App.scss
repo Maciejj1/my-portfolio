@@ -80,7 +80,7 @@ $phone: 331px;
 
 .first-page {
   width: 100%;
-  height: 1080px;
+  height: auto;
   justify-content: center;
   text-align: center;
   display: inline-block;
@@ -103,7 +103,7 @@ $phone: 331px;
     margin-top: 25%;
     margin-left: 5%;
     font-size: 19px;
-    text-align: justify;
+    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
@@ -141,7 +141,7 @@ $phone: 331px;
     width: 100%;
     margin-right: 60px;
     float: right;
-    margin-top: -60px;
+    margin-top: 0px;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -176,15 +176,27 @@ $phone: 331px;
     margin-left: 25px;
   }
 }
+@media (min-width: 1025px) {
+  .insta {
+    width: 115%;
+    margin-top: -5px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .insta {
+    width: 140%;
+    margin-top: -5px;
+  }
+}
 .second-page {
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 931px;
   justify-content: center;
   display: inline-block;
   color: #ddd;
   text-align: center;
+  height: 931px;
 }
 .second-page-logo {
   filter: hue-rotate(10deg), grayscale(100%);
@@ -200,4 +212,64 @@ $phone: 331px;
 }
 .second-page h3 {
   margin: 10px;
+}
+.third-page {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  color: #ddd;
+  text-align: center;
+  height: 931px;
+}
+
+.third-page-title {
+  font-size: 30px;
+}
+.third-page-text {
+  font-size: 30px;
+}
+.third-page h3 {
+  margin: 10px;
+}
+.fourth-page {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  color: #ddd;
+  text-align: center;
+  height: 100%;
+}
+
+.fourth-page-title {
+  font-size: 30px;
+}
+
+.fourth-page h3 {
+  margin: 10px;
+}
+.fourth-page-what-i-do {
+  font-size: 30px;
+}
+.fourth-page-what-i-do img {
+  margin: 20px;
+}
+@media (min-width: 1025px) {
+  .vscode {
+    width: 64px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .vscode {
+    width: 64px;
+  }
+}
+.fourth-page-what-i-learning img {
+  margin: 20px;
+}
+.fourth-page-basic-knowledge img {
+  margin: 20px;
 }

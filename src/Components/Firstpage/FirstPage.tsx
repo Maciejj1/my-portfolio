@@ -24,11 +24,11 @@ const FirstPage = () => {
       <a href="">Contact Me</a>
     </div>
     <div className='first-page-icons-links'>
-      <a href=""><img src={linkedin}/></a>
-      <a href=""><img src={github}/></a>
-      <a href=""><img src={facebook}/></a>
-      <a href=""><img src={twiiter}/></a>
-      <a href=""><img src={insta}/></a>
+      <a href="https://www.linkedin.com/in/maciek-wawryszuk-484737225/"><img src={linkedin}/></a> 
+      <a href="https://github.com/Maciejj1"><img src={github}/></a>
+      <a href="https://www.facebook.com/profile.php?id=100010047699896"><img src={facebook}/></a>
+      <a href="https://twitter.com/Maciej02191496"><img src={twiiter}/></a>
+      <a href="https://www.instagram.com/__p4r4n0rm44l__/"><img src={insta} className="insta"/></a>
     </div>
   </div>
   </div>

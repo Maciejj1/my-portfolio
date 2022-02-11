@@ -6,6 +6,8 @@ import profile from "./assets/profile.jpg"
 import Navbar from './Components/Nav/Navbar';
 import FirstPage from './Components/Firstpage/FirstPage';
 import SecondPage from './Components/SecondPage/SecondPage';
+import ThirdPage from './Components/ThirdPage/ThirdPage';
+import FourthPage from './Components/FourthPage/FourthPage';
 function App() {
 
 
@@ -15,6 +17,8 @@ function App() {
       <div className='pages'>
        <FirstPage />
        <SecondPage />
+       <ThirdPage />
+       <FourthPage />
         </div>
     </div>
   );
