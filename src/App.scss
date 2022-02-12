@@ -172,7 +172,7 @@ $phone: 331px;
   .first-page-icons-links {
     float: left;
     display: flex;
-    margin-top: 130px;
+    margin-top: 30px;
     margin-left: 25px;
   }
 }
@@ -288,6 +288,53 @@ $phone: 331px;
   color: #ddd;
   height: 900px;
 }
+@media (min-width: 1025px) {
+  .fifth-page-image img {
+    width: 400px;
+    margin-left: 80px;
+    height: 200px;
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    -o-filter: grayscale(90%);
+    -ms-filter: grayscale(90%);
+    filter: grayscale(90%);
+    transition-duration: 2s;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .fifth-page-image img {
+    width: 400px;
+    height: 200px;
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    -o-filter: grayscale(90%);
+    -ms-filter: grayscale(90%);
+    filter: grayscale(90%);
+    transition-duration: 2s;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1025px) {
+  .fifth-page-text {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .fifth-page-text {
+    display: none;
+  }
+}
+@media (min-width: 1025px) {
+  .fifth-page-image {
+    margin-top: 20px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .fifth-page-image {
+    margin-left: -40px;
+  }
+}
 .fifth-page-title {
   text-align: center;
   font-size: 30px;
@@ -331,4 +378,101 @@ $phone: 331px;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   z-index: 0;
+}
+.sixth-page {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  color: #ddd;
+  height: 100%;
+}
+.sixth-page-title {
+  font-size: 30px;
+  text-align: center;
+}
+.sixth-page-text {
+  width: 100%;
+
+  font-size: 30px;
+  margin-top: 160px;
+}
+@media (min-width: 1025px) {
+  .sixth-page-icons img {
+    margin-right: 100px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page-icons img {
+    margin-right: -10px;
+    margin-left: -10px;
+    float: right;
+  }
+}
+@media (min-width: 1025px) {
+  .sixth-page {
+    float: left;
+    margin-left: 50px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) {
+  .sixth-page img {
+    float: left;
+    margin-left: 50px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page img {
+    float: left;
+    margin-right: 20px;
+    margin-left: -4px;
+  }
+}
+@media (min-width: 1025px) {
+  .sixth-page-code-logo {
+    float: right;
+    margin-top: -240px;
+    opacity: 0.5;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page-code-logo {
+    float: right;
+    width: 100%;
+
+    opacity: 0.5;
+  }
+}
+@media (min-width: 1025px) {
+  .sixth-page-code-logo img {
+    float: right;
+    width: 100%;
+
+    opacity: 0.5;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page-code-logo img {
+    float: right;
+    margin-top: 220px;
+    width: 200px;
+    opacity: 0.5;
+  }
+}
+.sixth-page h3 {
+}
+.sixth-page-icons img {
+  margin-right: 70px;
+  margin-left: 20px;
+}
+.sixth-page-code-logo {
+  float: right;
+  margin-top: -240px;
+  opacity: 0.5;
+}
+.sixth-page-icons h3 {
+  margin-left: 50px;
 }

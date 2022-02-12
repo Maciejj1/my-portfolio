@@ -5,6 +5,7 @@ import facebook from '../../assets/facebook.png'
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import twiiter from '../../assets/twitter.png'
+import SixthPage from '../SixthPage/SixthPage'
 const FirstPage = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const FirstPage = () => {
       <img src={profile} className="profile-photo" />
     </div>
     <div className='first-page-contact-button'>
-      <a href="">Contact Me</a>
+      
     </div>
     <div className='first-page-icons-links'>
       <a href="https://www.linkedin.com/in/maciek-wawryszuk-484737225/"><img src={linkedin}/></a> 

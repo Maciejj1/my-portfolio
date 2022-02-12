@@ -9,6 +9,7 @@ import SecondPage from './Components/SecondPage/SecondPage';
 import ThirdPage from './Components/ThirdPage/ThirdPage';
 import FourthPage from './Components/FourthPage/FourthPage';
 import FifthPage from './Components/FifthPage/FifthPage';
+import SixthPage from './Components/SixthPage/SixthPage';
 function App() {
 
 
@@ -21,6 +22,7 @@ function App() {
        <ThirdPage />
        <FourthPage />
        <FifthPage />
+       <SixthPage />
         </div>
     </div>
   );
