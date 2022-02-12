@@ -16,9 +16,9 @@ const SixthPage = () => {
        </div>
        <div className='sixth-page-icons'>
          <h3>Send me message on:</h3>
-        <img src={gmail} />
-        <img src={twitter} />
-        <img src={linkedin} />
+        <a href="mailto:maciekwawryszuk@gmail.com"><img src={gmail} /> </a>
+        <a href="https://twitter.com/Maciej02191496"><img src={twitter} /></a>
+        <a href="https://www.linkedin.com/in/maciek-wawryszuk-484737225/"><img src={linkedin} /></a>
        </div>
        <div className='sixth-page-code-logo'>
            <img src="https://cdn-icons-png.flaticon.com/512/59/59118.png" />

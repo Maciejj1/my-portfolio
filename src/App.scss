@@ -388,9 +388,27 @@ $phone: 331px;
   color: #ddd;
   height: 100%;
 }
+
 .sixth-page-title {
   font-size: 30px;
   text-align: center;
+}
+
+@media (min-width: 1025px) {
+  .sixth-page-text {
+    width: 100%;
+
+    font-size: 30px;
+    margin-top: 160px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page-text {
+    width: 100%;
+    margin-left: 80px;
+    font-size: 30px;
+    margin-top: 160px;
+  }
 }
 .sixth-page-text {
   width: 100%;
@@ -399,21 +417,21 @@ $phone: 331px;
   margin-top: 160px;
 }
 @media (min-width: 1025px) {
-  .sixth-page-icons img {
-    margin-right: 100px;
+  .sixth-page-icons a {
+    margin-right: 50px;
+    float: left;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
-  .sixth-page-icons img {
+  .sixth-page-icons a {
     margin-right: -10px;
-    margin-left: -10px;
+    margin-left: 0px;
     float: right;
   }
 }
 @media (min-width: 1025px) {
   .sixth-page {
     float: left;
-    margin-left: 50px;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -434,8 +452,10 @@ $phone: 331px;
 @media (min-width: 1025px) {
   .sixth-page-code-logo {
     float: right;
-    margin-top: -240px;
+    margin-top: -350px;
     opacity: 0.5;
+    width: 40%;
+    margin-right: 200px;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -457,8 +477,8 @@ $phone: 331px;
 @media (min-width: $phone) and (max-width: 1024px) {
   .sixth-page-code-logo img {
     float: right;
-    margin-top: 220px;
-    width: 200px;
+    margin-top: -50px;
+    width: 400px;
     opacity: 0.5;
   }
 }
@@ -468,11 +488,15 @@ $phone: 331px;
   margin-right: 70px;
   margin-left: 20px;
 }
-.sixth-page-code-logo {
-  float: right;
-  margin-top: -240px;
-  opacity: 0.5;
+@media (min-width: 1025px) {
+  .sixth-page-icons h3 {
+    margin-left: 50px;
+    font-size: 30px;
+  }
 }
-.sixth-page-icons h3 {
-  margin-left: 50px;
+@media (min-width: $phone) and (max-width: 1024px) {
+  .sixth-page-icons h3 {
+    margin-left: 100px;
+    font-size: 30px;
+  }
 }

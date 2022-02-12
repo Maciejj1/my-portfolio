@@ -11,7 +11,7 @@ const ThirdPage = () => {
           <br/>
           <h3>Certificate of completion of foreign internships</h3>
           <br/>
-          <h3>HTML i CSS- poznaj podstawy i zacznij progrwamować!</h3>
+          <h3>HTML i CSS- poznaj podstawy i zacznij programować!</h3>
           <br/>
           <h3>React od Podstaw</h3>
         </div>
