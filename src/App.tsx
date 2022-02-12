@@ -8,6 +8,7 @@ import FirstPage from './Components/Firstpage/FirstPage';
 import SecondPage from './Components/SecondPage/SecondPage';
 import ThirdPage from './Components/ThirdPage/ThirdPage';
 import FourthPage from './Components/FourthPage/FourthPage';
+import FifthPage from './Components/FifthPage/FifthPage';
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
        <SecondPage />
        <ThirdPage />
        <FourthPage />
+       <FifthPage />
         </div>
     </div>
   );

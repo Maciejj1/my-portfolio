@@ -241,7 +241,7 @@ $phone: 331px;
   display: inline-block;
   color: #ddd;
   text-align: center;
-  height: 100%;
+  height: 931px;
 }
 
 .fourth-page-title {
@@ -272,4 +272,63 @@ $phone: 331px;
 }
 .fourth-page-basic-knowledge img {
   margin: 20px;
+}
+.fourth-page-what-i-learning {
+  font-size: 30px;
+}
+.fourth-page-basic-knowledge {
+  font-size: 30px;
+}
+.fifth-page {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  display: inline-block;
+  color: #ddd;
+  height: 900px;
+}
+.fifth-page-title {
+  text-align: center;
+  font-size: 30px;
+}
+.fifth-page-text {
+  width: 100%;
+  margin-top: 100px;
+}
+.fifth-page-text h3 {
+  font-size: 30px;
+  display: inline;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-right: 135px;
+  margin-left: 155px;
+}
+.fifth-page-image {
+  margin-top: 20px;
+}
+.fifth-page-image img {
+  width: 400px;
+  margin-left: 80px;
+  height: 200px;
+  -webkit-filter: grayscale(90%);
+  -moz-filter: grayscale(90%);
+  -o-filter: grayscale(90%);
+  -ms-filter: grayscale(90%);
+  filter: grayscale(90%);
+  transition-duration: 2s;
+}
+.fifth-page-image img:hover {
+  width: 400px;
+  margin-left: 80px;
+  height: 200px;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
 }
