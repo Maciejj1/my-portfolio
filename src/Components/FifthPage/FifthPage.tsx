@@ -3,7 +3,7 @@ import weatherapp from '../../assets/weatherapp.png'
 import vape from '../../assets/vapeshop.png'
 const FifthPage = () => {
   return (
-    <div className='fifth-page'>
+    <div className='fifth-page' id="projects">
         <div className='fifth-page-title'>
          <h1>Projects</h1>
         </div>

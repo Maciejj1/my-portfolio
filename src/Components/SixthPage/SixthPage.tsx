@@ -5,7 +5,7 @@ import twitter from '../../assets/twitter.png'
 import linkedin from '../../assets/linkedin.png'
 const SixthPage = () => {
   return (
-    <div className='sixth-page'>
+    <div className='sixth-page' id="contact">
      <div className='sixth-page-title'>
       <h1>Contact Me!</h1>
      </div>

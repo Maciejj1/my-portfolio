@@ -3,7 +3,7 @@ import respons from '../../assets/pngegg.png'
 import vscode from '../../assets/vscode.png'
 const FourthPage = () => {
   return (
-    <div className='fourth-page'>
+    <div className='fourth-page' id="skills">
       <div className='fourth-page-title'>
           <h1>Skills</h1>
       </div>

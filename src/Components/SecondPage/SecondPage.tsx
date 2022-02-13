@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.png'
 const SecondPage = () => {
   return (
-    <div className='second-page'>
+    <div className='second-page' id="education">
         <div className='second-page-title'>
             <h1>Education</h1>
         </div>

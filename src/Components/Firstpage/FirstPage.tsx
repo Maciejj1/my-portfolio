@@ -6,9 +6,10 @@ import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import twiiter from '../../assets/twitter.png'
 import SixthPage from '../SixthPage/SixthPage'
+import {Link} from 'react-scroll'
 const FirstPage = () => {
   return (
-    <div>
+    <div id="home">
     <div className='first-page'>
     <div className='first-page-aboutme'>
     <h1>HEY ! I,m Maciej</h1>  
@@ -22,7 +23,7 @@ const FirstPage = () => {
       <img src={profile} className="profile-photo" />
     </div>
     <div className='first-page-contact-button'>
-      
+      <Link to="contact" smooth="true" duration={2000}>Contact</Link>
     </div>
     <div className='first-page-icons-links'>
       <a href="https://www.linkedin.com/in/maciek-wawryszuk-484737225/"><img src={linkedin}/></a> 

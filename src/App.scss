@@ -30,6 +30,7 @@ a {
   background: #ddd;
   color: #060429;
   border-radius: 108px;
+  cursor: pointer;
 }
 .pages {
   margin-top: 30px;
@@ -164,7 +165,7 @@ $phone: 331px;
   .first-page-icons-links {
     float: left;
     display: flex;
-    margin-top: 100px;
+    margin-top: -15px;
     margin-left: 90px;
   }
 }
@@ -206,6 +207,7 @@ $phone: 331px;
 }
 .second-page-title {
   font-size: 30px;
+  margin-top: 100px;
 }
 .second-page-text {
   font-size: 30px;
@@ -226,6 +228,7 @@ $phone: 331px;
 
 .third-page-title {
   font-size: 30px;
+  margin-top: 100px;
 }
 .third-page-text {
   font-size: 30px;
@@ -246,6 +249,7 @@ $phone: 331px;
 
 .fourth-page-title {
   font-size: 30px;
+  margin-top: 100px;
 }
 
 .fourth-page h3 {
@@ -338,6 +342,7 @@ $phone: 331px;
 .fifth-page-title {
   text-align: center;
   font-size: 30px;
+  margin-top: 100px;
 }
 .fifth-page-text {
   width: 100%;
