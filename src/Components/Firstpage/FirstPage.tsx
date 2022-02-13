@@ -12,7 +12,7 @@ const FirstPage = () => {
     <div id="home">
     <div className='first-page'>
     <div className='first-page-aboutme'>
-    <h1>HEY ! I,m Maciej</h1>  
+    <h1>Hi ! I'm Maciej</h1>  
       <h3>In love with creating web applications <br />
           as a Frontend Developer<br/>
           using React / SASS / Javascript and<br />

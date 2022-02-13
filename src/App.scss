@@ -143,6 +143,7 @@ $phone: 331px;
     margin-right: 60px;
     float: right;
     margin-top: 0px;
+    cursor: pointer;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -151,6 +152,7 @@ $phone: 331px;
     margin-right: 60px;
     float: right;
     margin-top: 20px;
+    cursor: pointer;
   }
 }
 .first-page-contact-button a {
