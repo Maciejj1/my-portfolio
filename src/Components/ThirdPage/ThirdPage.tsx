@@ -2,7 +2,7 @@ import React from 'react'
 
 const ThirdPage = () => {
   return (
-    <div className='third-page' id="certyficates">
+    <div className='third-page' id="education">
       <div className='third-page-title'>
         <h1>Certyficates</h1>
       </div>
