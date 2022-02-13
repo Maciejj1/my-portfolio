@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4d657a5.css",
-    "main.js": "/static/js/main.49105815.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/weatherapp.png": "/static/media/weatherapp.945369482ac847baaae8.png",
-    "static/media/vapeshop.png": "/static/media/vapeshop.b89488ee338d003e167d.png",
-    "static/media/vscode.png": "/static/media/vscode.a61dc62c499ed3aeefdc.png",
-    "static/media/profile.jpg": "/static/media/profile.58732ef3d30c2e1d94b0.jpg",
-    "static/media/logo.png": "/static/media/logo.83fa62af842903b8663e.png",
-    "index.html": "/index.html",
-    "main.f4d657a5.css.map": "/static/css/main.f4d657a5.css.map",
-    "main.49105815.js.map": "/static/js/main.49105815.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.f4d657a5.css",
+    "main.js": "/my-portfolio/static/js/main.14644da1.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/weatherapp.png": "/my-portfolio/static/media/weatherapp.945369482ac847baaae8.png",
+    "static/media/vapeshop.png": "/my-portfolio/static/media/vapeshop.b89488ee338d003e167d.png",
+    "static/media/vscode.png": "/my-portfolio/static/media/vscode.a61dc62c499ed3aeefdc.png",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.58732ef3d30c2e1d94b0.jpg",
+    "static/media/logo.png": "/my-portfolio/static/media/logo.83fa62af842903b8663e.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.f4d657a5.css.map": "/my-portfolio/static/css/main.f4d657a5.css.map",
+    "main.14644da1.js.map": "/my-portfolio/static/js/main.14644da1.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4d657a5.css",
-    "static/js/main.49105815.js"
+    "static/js/main.14644da1.js"
   ]
 }
