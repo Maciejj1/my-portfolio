@@ -377,12 +377,31 @@ $phone: 231px;
     height: 931px;
   }
 }
-@media (min-width: 1025px) and (max-width: 2000px) {
+@media (min-width: 1600px) {
+  .fifth-page-image img {
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+    display: block;
+    right: 20%;
+    margin-right: 70px;
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    -o-filter: grayscale(90%);
+    -ms-filter: grayscale(90%);
+    filter: grayscale(90%);
+    transition-duration: 2s;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
   .fifth-page-image img {
     width: 400px;
     position: relative;
-    margin-left: 80px;
     height: 200px;
+    margin-left: 60px;
+    display: block;
+    margin-top: 20px;
     -webkit-filter: grayscale(90%);
     -moz-filter: grayscale(90%);
     -o-filter: grayscale(90%);
@@ -408,7 +427,7 @@ $phone: 231px;
 @media (min-width: 1025px) {
   .fifth-page-text {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -416,9 +435,10 @@ $phone: 231px;
     display: none;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1000px) {
   .fifth-page-image {
-    margin-top: 20px;
+    position: relative;
+    right: 3%;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -433,21 +453,6 @@ $phone: 231px;
   margin-top: 100px;
 }
 
-.fifth-page-text {
-  width: 100%;
-  margin-top: 100px;
-}
-.fifth-page-text h3 {
-  font-size: 30px;
-  display: inline;
-  color: #ffffff;
-  border-radius: 20px;
-  margin-right: 135px;
-  margin-left: 155px;
-}
-.fifth-page-image {
-  margin-top: 20px;
-}
 .fifth-page-image img:hover {
   width: 400px;
   height: 200px;
@@ -461,7 +466,42 @@ $phone: 231px;
   -moz-transform: scale(1.2);
   z-index: 0;
 }
-
+@media (min-width: 1600px) {
+  .fifth-page-text h3 {
+    font-size: 30px;
+    display: inline;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    border-radius: 20px;
+    margin-right: 135px;
+    margin-left: 155px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fifth-page-text h3 {
+    font-size: 30px;
+    display: inline;
+    color: #ffffff;
+    position: relative;
+    left: 0%;
+    border-radius: 20px;
+    margin-right: 135px;
+    margin-left: 155px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .fifth-page-text h3 {
+    font-size: 30px;
+    display: inline;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    border-radius: 20px;
+    margin-right: 135px;
+    margin-left: 155px;
+  }
+}
 @media (min-width: 1025px) {
   .sixth-page {
     width: 100%;
@@ -516,11 +556,13 @@ $phone: 231px;
   .sixth-page-icons a {
     margin-left: 0px;
     float: left;
+
     margin-right: -10px;
   }
 }
 @media (min-width: 1025px) {
   .sixth-page-icons {
+    display: block;
   }
 }
 @media (min-width: $phone) and (max-width: 1024px) {
@@ -568,7 +610,7 @@ $phone: 231px;
 @media (min-width: 1025px) {
   .sixth-page-code-logo img {
     float: right;
-    width: 100%;
+    width: 80%;
 
     opacity: 0.5;
   }
@@ -581,7 +623,11 @@ $phone: 231px;
     opacity: 0.5;
   }
 }
-.sixth-page h3 {
+.sixth-page h2 {
+  float: left;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: -40px;
 }
 .sixth-page-icons img {
   margin-right: 70px;
@@ -597,5 +643,13 @@ $phone: 231px;
   .sixth-page-icons h3 {
     margin-left: 100px;
     font-size: 30px;
+  }
+}
+@media (min-width: $phone) and (max-width: 1024px) {
+  .linkedin {
+    float: left;
+    position: relative;
+    right: 93%;
+    margin-top: 80px;
   }
 }
